@@ -1,0 +1,244 @@
+.product-item-detailed-container {
+  height: calc(100vh - 50px);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.carousal-container {
+  width: 100%;
+}
+.each-image {
+  margin: 0px 20px;
+  width: 95% !important;
+  display: block !important;
+  margin: 0px auto;
+}
+.slick-dots li {
+  margin: 0px !important;
+}
+.slick-dots li.slick-active button:before {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 5px !important;
+}
+.slick-dots li button:before {
+  opacity: 1 !important;
+  content: "" !important;
+  height: 6px !important;
+  width: 6px !important;
+  background-color: #7e59e7 !important;
+  border-radius: 3px !important;
+  top: 5px !important;
+}
+.slick-active {
+  height: 40px;
+  width: 50px;
+}
+.title-cont {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+  margin-top: 30px;
+}
+.title {
+  margin: 0px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 70%;
+}
+.width {
+  width: 95%;
+  margin: 0px auto;
+  align-items: center;
+}
+.disc-cont {
+  width: 20px;
+  height: 15px;
+  border-radius: 4px;
+  border: 1px solid #47cd89;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-bottom: -5px;
+}
+.discount2 {
+  margin: 0px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  color: rgb(23, 178, 106);
+  line-height: 1;
+}
+.coupon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2eefd;
+  color: #64748b;
+  height: 36px;
+  padding: 8px 0;
+  box-sizing: border-box;
+  gap: 8px;
+  border-radius: 8px;
+  width: 95%;
+  margin: 15px auto;
+  border: 1px dashed #7e59e7;
+}
+.red {
+  line-height: 19.5px;
+  color: rgb(240, 68, 56);
+  font-weight: 500;
+}
+.vertical-seperator {
+  width: 1px;
+  height: 16px;
+  background: #64748b;
+}
+.c-text {
+  color: #64748b;
+  font-size: 11px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+}
+.q-section-div {
+  width: 95%;
+  margin: 30px auto;
+}
+.q-section {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  width: 100%;
+}
+.each-q {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  cursor: pointer;
+}
+.q-answer {
+  max-height: 0;
+  visibility: hidden;
+  overflow: hidden;
+  transition: all 0.8s ease;
+  opacity: 0;
+}
+
+.q-answer > * {
+  opacity: 0;
+  transition: all 0.8s ease;
+}
+.col {
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 0;
+}
+.bus-icon {
+  margin-right: 10px;
+}
+.q-des {
+  color: #64748b;
+  font-weight: 400;
+  margin-top: 0;
+  line-height: 1;
+}
+.list-item.col {
+  background-color: white !important;
+  height: 30px;
+}
+
+.brand-details {
+  width: 95%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 250px;
+}
+.brand-title {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.brand-content {
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background-image: url("https://cdn.furrl.in/housethis.myshopify.com/asset/Banner Image.png");
+  background: linear-gradient(
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.13) 50%,
+    rgb(0, 0, 0) 100%
+  );
+}
+.brand-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  margin: 0px auto;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.brand-logo-cont {
+  height: 50px;
+  width: 55px;
+  border-radius: 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.brand-logo {
+  height: 100%;
+  width: 100%;
+}
+.brand-name-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-left: 20px;
+}
+.brand-desc {
+  color: white;
+  font-size: 12px;
+  line-height: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+}
+.brand-name-prod {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: Montserrat, sans-serif;
+}

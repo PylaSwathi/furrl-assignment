@@ -1,0 +1,31 @@
+.nav-bar-container {
+  height: 50px;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+}
+.z {
+  z-index: -1;
+}
+.nav-bar-icons-container {
+  width: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar-icons-btn {
+  height: auto;
+  width: auto;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
