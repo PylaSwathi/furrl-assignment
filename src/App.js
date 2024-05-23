@@ -6,7 +6,7 @@ import ProductDetailPageWrapper from "./components/ProductDetailPageWrapper";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="furrl-assignment">
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/product/:id" element={<ProductDetailPageWrapper />} />
