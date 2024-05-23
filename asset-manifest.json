@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/furrl-assignment/static/css/main.4f8cd710.css",
-    "main.js": "/furrl-assignment/static/js/main.12dba753.js",
+    "main.css": "/furrl-assignment/static/css/main.be7d3f0d.css",
+    "main.js": "/furrl-assignment/static/js/main.17f9c6de.js",
     "static/js/453.f1502512.chunk.js": "/furrl-assignment/static/js/453.f1502512.chunk.js",
     "static/media/slick.svg": "/furrl-assignment/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/furrl-assignment/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/furrl-assignment/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/furrl-assignment/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/furrl-assignment/index.html",
-    "main.4f8cd710.css.map": "/furrl-assignment/static/css/main.4f8cd710.css.map",
-    "main.12dba753.js.map": "/furrl-assignment/static/js/main.12dba753.js.map",
+    "main.be7d3f0d.css.map": "/furrl-assignment/static/css/main.be7d3f0d.css.map",
+    "main.17f9c6de.js.map": "/furrl-assignment/static/js/main.17f9c6de.js.map",
     "453.f1502512.chunk.js.map": "/furrl-assignment/static/js/453.f1502512.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f8cd710.css",
-    "static/js/main.12dba753.js"
+    "static/css/main.be7d3f0d.css",
+    "static/js/main.17f9c6de.js"
   ]
 }
