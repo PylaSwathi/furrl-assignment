@@ -97,3 +97,12 @@
 .full-width .each-item-img {
   height: 250px;
 }
+
+@media screen and (min-width: 750px) {
+  .each-item-img {
+    height: 300px;
+  }
+  .full-width .each-item-img {
+    height: 300px;
+  }
+}

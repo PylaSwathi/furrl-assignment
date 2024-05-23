@@ -207,7 +207,7 @@ class Home extends Component {
     } = this.state;
 
     return (
-      <div className="home-container">
+      <>
         <div
           className="home-top-container"
           style={{ backgroundImage: `url(${imageUrl})` }}
@@ -264,7 +264,7 @@ class Home extends Component {
             />
           ))}
         </ul>
-      </div>
+      </>
     );
   };
 
