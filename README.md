@@ -15,10 +15,11 @@ cd yourprojectdirectory
 npm start
 
 Features:
-1.Infinite Scroll with out using any third party library or api.
+1.Implemented Navbar including SideNavbar also.
 2.implemented API Calls
-3.Routing
-4.Error handling of the API Calls.
+3.Infinite Scroll with out using any third party library or api.
+4.Routing
+5.Error handling of the API Calls.
 
 
 
